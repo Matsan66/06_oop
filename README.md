@@ -9,6 +9,30 @@ Uppgiften omfattar 4 programmeringsuppgifter som redovisas på GitHub.
 3. Banken
 4. Webbshop
 
+### 1️⃣ Läsa och förstå kod
+Uppgiften innebar att ett antal oop kodexempel skulle tolkas. I första uppgiften
+skulle en förväntad utskrift gissas. Den andra uppgiften var ett exempel med en 
+basklass och två klasser som ärvde denna. I uppgiftens lösande ingick att tolka
+vad koden gjorde och att rätta några fel i koden. Slutligen skulle man lägga till
+en egen klass som ärvde samma basklass.
+
+### 2️⃣ Länder
+I uppgiften ingick en klass som (Country) som instansierade objekt med variablerna 
+"name" och "population".  
+1. Skapa objekt för länderna. (Data från januari 2024. Avrunda befolkningen.)  
+2. Lägg till en metod med namnet "print_info". Om man anropar den för Sverige-objektet 
+ska den skriva ut: "I Sverige bor det 10.5 miljoner invånare". Metoder ska använda klassens 
+egenskaper, så att den fungerar för de andra länderna och inte bara för Sverige.
+3. Lägg till landets area som en egenskap till klassen. Använd en parameter till konstruktorn, 
+alltså __init__ metoden. Ge arean ett default värde på None så att man inte måste ange arean 
+när man skapar ett landsobjekt.
+4.  Ändra i metoden "print_info" så att den skriver ut arean också, men bara om arean inte är None.
+5. Skapa en ny metod med namnet "add_language". Den ska lägga till ett av landets officiella språk. 
+(Sverige har bara ett, men Finland har två språk (svenska och finska) och Schweiz har fyra.) 
+För att kunna spara ett varierande antal behöver du använda en lista.
+6. Ändra i "print_info" så att den skriver ut alla officiella språk, på en ny rad.
+
+
 
 ## 📊 Status
 
@@ -16,8 +40,8 @@ Här nedan presenteras en översikt över statusen på lösande av uppgfterna.
 
 | Uppgift                | Status |
 |:-----------------------|:------:|
-| 1. Läsa och förstå kod |   🔴   |
-| 2. Länder              |   🔴   |
+| 1. Läsa och förstå kod |   🟢   |
+| 2. Länder              |   🟡   |
 | 3. Banken              |   🔴   |
 | 4. Webbshop            |   🔴   |
 
