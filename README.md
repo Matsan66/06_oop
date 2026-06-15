@@ -32,8 +32,18 @@ när man skapar ett landsobjekt.
 För att kunna spara ett varierande antal behöver du använda en lista.
 6. Ändra i "print_info" så att den skriver ut alla officiella språk, på en ny rad.
 
+### 3️⃣Banken
+Skapa en klass som representerar ett bankkonto. Banken ska kunna:
+1. sätta in pengar (deposit)
+2. ta ut pengar (withdraw)
+3. returnera nuvarande saldo (balance)
+4. räkna ut ränta (apply_interest, lägger till räntan till kontot)
+5. tala om ifall man har råd att betala en räkning (returnera True/False)
+6. Gör en metod för varje funktionalitet. 
+7. Skriv enhetstester för varje funktion. Använd gärna TDD-metoden, 
+att börja med testfallen innan du skriver koden.
 
-
+   
 ## 📊 Status
 
 Här nedan presenteras en översikt över statusen på lösande av uppgfterna.
@@ -41,8 +51,8 @@ Här nedan presenteras en översikt över statusen på lösande av uppgfterna.
 | Uppgift                | Status |
 |:-----------------------|:------:|
 | 1. Läsa och förstå kod |   🟢   |
-| 2. Länder              |   🟡   |
-| 3. Banken              |   🔴   |
+| 2. Länder              |   🟢   |
+| 3. Banken              |   🟡   |
 | 4. Webbshop            |   🔴   |
 
 🔴   Ej påbörjad  
