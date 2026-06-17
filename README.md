@@ -43,6 +43,13 @@ Skapa en klass som representerar ett bankkonto. Banken ska kunna:
 7. Skriv enhetstester för varje funktion. Använd gärna TDD-metoden, 
 att börja med testfallen innan du skriver koden.
 
+### 4️⃣ Webbshop
+Skapa klasser som representerar en webbshop:
+- produkter (Product)
+- beställningar (Order)
+- kundvagn (ShoppingCart)
+
+
    
 ## 📊 Status
 
@@ -52,8 +59,8 @@ Här nedan presenteras en översikt över statusen på lösande av uppgfterna.
 |:-----------------------|:------:|
 | 1. Läsa och förstå kod |   🟢   |
 | 2. Länder              |   🟢   |
-| 3. Banken              |   🟡   |
-| 4. Webbshop            |   🔴   |
+| 3. Banken              |   🟢   |
+| 4. Webbshop            |   🟡   |
 
 🔴   Ej påbörjad  
 🟡   Påbörjad  
