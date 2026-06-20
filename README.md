@@ -49,6 +49,16 @@ Skapa klasser som representerar en webbshop:
 - beställningar (Order)
 - kundvagn (ShoppingCart)
 
+Klassen WebShop utgör kontrollklass för programmet och klassen äger produktlista, 
+kundvagn och lista med lagda order. Klassen Product skapar produktobjekt och används 
+av WebShop för att skapa en produktförteckning. Listan med produkter styrs från 
+WebShop varifrån man kan visa listan och hämta enskilda objekt. Klassen ShoppingCart
+används av webshop för att skapa en varubeställning. Användaren kan lägga till och 
+ta bort objekt från varukorgen samt visa nuvarande summa för objekten i varukorgen. 
+Klassen kan även tömma varukorgen och presentera den på ett snyggt sätt. Då en beställning 
+läggs skapar klassen Orders en kopia av innehållet i kundvagnen och sparar denna som en
+sluförd order.
+
 
    
 ## 📊 Status
@@ -60,8 +70,4 @@ Här nedan presenteras en översikt över statusen på lösande av uppgfterna.
 | 1. Läsa och förstå kod |   🟢   |
 | 2. Länder              |   🟢   |
 | 3. Banken              |   🟢   |
-| 4. Webbshop            |   🟡   |
-
-🔴   Ej påbörjad  
-🟡   Påbörjad  
-🟢   Färdig
+| 4. Webbshop            |   🟢   |
